@@ -1,0 +1,146 @@
+h1{
+    text-align: center;
+    padding-top: 5rem;
+}
+
+#Skills{
+    font-size: 20px;
+    margin: 45px auto;
+    overflow: hidden;
+}
+
+.Skills_Bar{
+    width: 50%;
+    height: 35px;
+    position: relative;
+    background: rgb(182, 178, 178);
+    border-radius: 1000px;
+    text-transform: uppercase;
+    margin: 20px auto;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12),
+    0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.5s cubic-bezier(.25,08,.25,1);
+}
+.Skills_Bar:hover{
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),
+    0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.skills_area{
+    font-size: 16px;
+    z-index: 1;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 15px;
+    text-shadow: none;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.Percentage{
+    z-index: 3;
+    position: relative;
+    margin-right: 15px;
+    margin-top: 10px;
+    float: right;
+    text-shadow: none;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+}
+
+#html{
+    width: 100%;
+    animation: animate-html 3s;
+    height: 35px;
+    position: relative;
+    border-radius: 1000px;
+    background-color: #d64cd6;
+}
+
+@keyframes animate-html{
+    from{width: 0px;}
+    to{width: 100%;}
+}
+
+#css{
+    width: 95%;
+    animation: animate-css 3s;
+    height: 35px;
+    position: relative;
+    border-radius: 1000px;
+    background-color: #4cc1d6;
+}
+
+@keyframes animate-css{
+    from{width: 0%;}
+    to{width: 95%;}
+}
+
+#js{
+    width: 70%;
+    animation: animate-js 3s;
+    height: 35px;
+    position: relative;
+    border-radius: 1000px;
+    background-color: #f32a9f;
+}
+
+@keyframes animate-js{
+    from{width: 0px;}
+    to{width: 70%;}
+}
+#react{
+    width: 70%;
+    animation: animate-react 3s;
+    height: 35px;
+    position: relative;
+    border-radius: 1000px;
+    background-color: #128103;
+}
+
+@keyframes animate-react{
+    from{width: 0px;}
+    to{width: 70%;}
+}
+
+#Wix{
+    width: 95%;
+    animation: animate-Wix 3s;
+    height: 35px;
+    position: relative;
+    border-radius: 1000px;
+    background-color: #f0d800;
+}
+
+@keyframes animate-Wix{
+    from{width: 0px;}
+    to{width: 95%;}
+}
+#WordPress{
+    width: 95%;
+    animation: animate-WordPress 3s;
+    height: 35px;
+    position: relative;
+    border-radius: 1000px;
+    background-color: #f04400;
+}
+
+@keyframes animate-WordPress{
+    from{width: 0px;}
+    to{width: 95%;}
+}
+
+#bs{
+    width: 95%;
+    animation: animate-bs 3s;
+    height: 35px;
+    position: relative;
+    border-radius: 1000px;
+    background-color: #0004fa;
+}
+
+@keyframes animate-bs{
+    from{width: 0px;}
+    to{width: 95%;}
+}
